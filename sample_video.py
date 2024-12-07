@@ -1,13 +1,32 @@
 import os
 import time
+from time import gmtime, strftime
+
 from pathlib import Path
 from loguru import logger
 from datetime import datetime
+from google.cloud import storage
 
 from hyvideo.utils.file_utils import save_videos_grid
 from hyvideo.config import parse_args
 from hyvideo.inference import HunyuanVideoSampler
 
+def upload_to_bucket(blob_name, path_to_file, bucket_name):
+    """ Upload data to a bucket"""
+     
+    # Explicitly use service account credentials by specifying the private key
+    # file.
+    storage_client = storage.Client.from_service_account_json(
+        'creds.json')
+
+    #print(buckets = list(storage_client.list_buckets())
+
+    bucket = storage_client.get_bucket(bucket_name)
+    blob = bucket.blob(blob_name)
+    blob.upload_from_filename(path_to_file)
+    
+    #returns a public url
+    return blob.public_url
 
 def main():
     args = parse_args()
@@ -52,6 +71,11 @@ def main():
         save_path = f"{save_path}/{time_flag}_seed{outputs['seeds'][i]}_{outputs['prompts'][i][:100].replace('/','')}.mp4"
         save_videos_grid(sample, save_path, fps=24)
         logger.info(f'Sample save to: {save_path}')
+        blob_name = strftime("%Y-%m-%d-%H-%M-%S", gmtime()) + ".mp4"
+        upload_to_bucket(blob_name, save_path, "hunyuanvideo") 
+        logger.info(f"https://storage.googleapis.com/hunyuanvideo/{blob_name}")
+
+    
 
 if __name__ == "__main__":
     main()
