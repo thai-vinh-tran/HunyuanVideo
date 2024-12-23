@@ -67,6 +67,8 @@
 
 - HunyuanVideo-gguf (GGUF、量化): [HunyuanVideo-gguf](https://huggingface.co/city96/HunyuanVideo-gguf) by [city96](https://huggingface.co/city96)
 
+- Enhance-A-Video (生成更高质量的视频): [Enhance-A-Video](https://github.com/NUS-HPC-AI-Lab/Enhance-A-Video) by [NUS-HPC-AI-Lab](https://ai.comp.nus.edu.sg/)
+
 
 
 ## 📑 开源计划
