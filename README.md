@@ -62,6 +62,7 @@ If you develop/use HunyuanVideo in your projects, welcome to let us know.
 - FastVideo (Consistency Distilled Model): [FastVideo](https://github.com/hao-ai-lab/FastVideo) by [Hao AI Lab](https://hao-ai-lab.github.io/)
 - HunyuanVideo-gguf (GGUF Version and Quantization): [HunyuanVideo-gguf](https://huggingface.co/city96/HunyuanVideo-gguf) by [city96](https://huggingface.co/city96)
 - Enhance-A-Video (Better Generated Video for Free): [Enhance-A-Video](https://github.com/NUS-HPC-AI-Lab/Enhance-A-Video) by [NUS-HPC-AI-Lab](https://ai.comp.nus.edu.sg/)
+- TeaCache (Cache-based Accelerate): [TeaCache](https://github.com/LiewFeng/TeaCache) by [Feng Liu](https://github.com/LiewFeng)
 
 
 
