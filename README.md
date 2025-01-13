@@ -41,6 +41,7 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 
 ## 🔥🔥🔥 News!!
 
+* Jan 13, 2025: 📈 We release the [Penguin Video Benchmark](https://raw.githubusercontent.com/Tencent/HunyuanVideo/refs/heads/main/assets/PenguinVideoBenchmark.csv).
 * Dec 18, 2024: 🏃‍♂️ We release the [FP8 model weights](https://huggingface.co/tencent/HunyuanVideo/blob/main/hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states_fp8.pt) of HunyuanVideo to save more GPU memory.
 * Dec 17, 2024: 🤗 HunyuanVideo has been integrated into [Diffusers](https://huggingface.co/docs/diffusers/main/api/pipelines/hunyuan_video).
 * Dec 7, 2024: 🚀 We release the parallel inference code for HunyuanVideo powered by [xDiT](https://github.com/xdit-project/xDiT).
@@ -79,7 +80,7 @@ If you develop/use HunyuanVideo in your projects, welcome to let us know.
   - [x] Web Demo (Gradio)
   - [x] Diffusers 
   - [x] FP8 Quantified weight
-  - [ ] Penguin Video Benchmark
+  - [x] Penguin Video Benchmark
   - [ ] ComfyUI
   - [ ] Multi-gpus PipeFusion inference (Low memory requirements)
 - HunyuanVideo (Image-to-Video Model)
