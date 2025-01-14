@@ -43,7 +43,7 @@
 
 ## 🔥🔥🔥 更新!!
 
-* 2025年01月13日: 📈 开源 Penguin Video [基准测试集](https://raw.githubusercontent.com/Tencent/HunyuanVideo/refs/heads/main/assets/PenguinVideoBenchmark.csv) 。
+* 2025年01月13日: 📈 开源 Penguin Video [基准测试集](https://github.com/Tencent/HunyuanVideo/blob/main/assets/PenguinVideoBenchmark.csv) 。
 * 2024年12月18日: 🏃‍♂️ 开源 HunyuanVideo [FP8 模型权重](https://huggingface.co/tencent/HunyuanVideo/blob/main/hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states_fp8.pt)，节省更多 GPU 显存。
 * 2024年12月17日: 🤗 HunyuanVideo已经集成到[Diffusers](https://huggingface.co/docs/diffusers/main/api/pipelines/hunyuan_video)中。
 * 2024年12月03日: 🚀 开源 HunyuanVideo 多卡并行推理代码，由[xDiT](https://github.com/xdit-project/xDiT)提供。
