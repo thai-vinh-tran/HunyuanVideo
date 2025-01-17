@@ -133,7 +133,7 @@ We conducted extensive experiments and implemented a series of targeted designs 
 HunyuanVideo is trained on a spatial-temporally
 compressed latent space, which is compressed through a Causal 3D VAE. Text prompts are encoded
 using a large language model, and used as the conditions. Taking Gaussian noise and the conditions as
-input, our generative model produces a output latent, which is then decoded to images or videos through
+input, our generative model produces an output latent, which is then decoded to images or videos through
 the 3D VAE decoder.
 <p align="center">
   <img src="https://raw.githubusercontent.com/Tencent/HunyuanVideo/refs/heads/main/assets/overall.png"  height=300>
