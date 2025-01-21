@@ -27,7 +27,7 @@
 </div>
 
 <p align="center">
-    👋 Join our <a href="assets/WECHAT.md" target="_blank">WeChat</a> and <a href="https://discord.gg/WrurN5JXcm" target="_blank">Discord</a> 
+    👋 Join our <a href="assets/WECHAT.md" target="_blank">WeChat</a> and <a href="https://discord.gg/tv7FkG4Nwf" target="_blank">Discord</a> 
 </p>
 <p align="center">
 

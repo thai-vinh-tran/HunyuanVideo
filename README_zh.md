@@ -28,7 +28,7 @@
 
 
 <p align="center">
-    👋 加入我们的 <a href="assets/WECHAT.md" target="_blank">WeChat</a> 和 <a href="https://discord.gg/WrurN5JXcm" target="_blank">Discord</a> 
+    👋 加入我们的 <a href="assets/WECHAT.md" target="_blank">WeChat</a> 和 <a href="https://discord.gg/tv7FkG4Nwf" target="_blank">Discord</a> 
 </p>
 
 
