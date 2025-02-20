@@ -66,7 +66,7 @@
 
 - ComfyUI-Native (ComfyUI官方原生支持): [ComfyUI-HunyuanVideo](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_video/) by [ComfyUI Official](https://github.com/comfyanonymous/ComfyUI)
 
-- FastVideo (一致性蒸馏模型): [FastVideo](https://github.com/hao-ai-lab/FastVideo) by [Hao AI Lab](https://hao-ai-lab.github.io/)
+- FastVideo (一致性蒸馏模型、滑动块注意力): [FastVideo](https://github.com/hao-ai-lab/FastVideo) and [Sliding Tile Attention](https://hao-ai-lab.github.io/blogs/sta/) by [Hao AI Lab](https://hao-ai-lab.github.io/)
 
 - HunyuanVideo-gguf (GGUF、量化): [HunyuanVideo-gguf](https://huggingface.co/city96/HunyuanVideo-gguf) by [city96](https://huggingface.co/city96)
 
