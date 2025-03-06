@@ -41,7 +41,7 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 
 ## 🔥🔥🔥 News!!
 
-* Mar 06, 2025: 📈 We release the [HunyuanVideo-I2V](https://github.com/Tencent/HunyuanVideo-I2V), an image-to-video model based on HunyuanVideo.
+* Mar 06, 2025: 🌅 We release the [HunyuanVideo-I2V](https://github.com/Tencent/HunyuanVideo-I2V), an image-to-video model based on HunyuanVideo.
 * Jan 13, 2025: 📈 We release the [Penguin Video Benchmark](https://github.com/Tencent/HunyuanVideo/blob/main/assets/PenguinVideoBenchmark.csv).
 * Dec 18, 2024: 🏃‍♂️ We release the [FP8 model weights](https://huggingface.co/tencent/HunyuanVideo/blob/main/hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states_fp8.pt) of HunyuanVideo to save more GPU memory.
 * Dec 17, 2024: 🤗 HunyuanVideo has been integrated into [Diffusers](https://huggingface.co/docs/diffusers/main/api/pipelines/hunyuan_video).
