@@ -504,7 +504,7 @@ class HunyuanVideoSampler(Inference):
         seed=None,
         negative_prompt=None,
         infer_steps=50,
-        guidance_scale=6,
+        guidance_scale=6.0,
         flow_shift=5.0,
         embedded_guidance_scale=None,
         batch_size=1,
@@ -597,6 +597,8 @@ class HunyuanVideoSampler(Inference):
         # negative prompt
         if negative_prompt is None or negative_prompt == "":
             negative_prompt = self.default_negative_prompt
+        if guidance_scale == 1.0:
+            negative_prompt = ""
         if not isinstance(negative_prompt, str):
             raise TypeError(
                 f"`negative_prompt` must be a string, but got {type(negative_prompt)}"
