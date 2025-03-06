@@ -77,6 +77,9 @@
 
 - HunyuanVideoGP (针对低性能GPU的版本): [HunyuanVideoGP](https://github.com/deepbeepmeep/HunyuanVideoGP) by [DeepBeepMeep](https://github.com/deepbeepmeep)
 
+- RIFLEx (视频时序外拓): [RIFLEx](https://riflex-video.github.io/) by Tsinghua University
+- HunyuanVideo Keyframe Control Lora (视频关键帧控制LoRA): [hunyuan-video-keyframe-control-lora](https://github.com/dashtoon/hunyuan-video-keyframe-control-lora) by [dashtoon](https://github.com/dashtoon)
+
 
 
 ## 📑 开源计划
